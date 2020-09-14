@@ -1,0 +1,5 @@
+TODO.md
+# Project exclude paths
+/Eureka/target/
+/FileCenter/target/
+/UserCenter/target/
