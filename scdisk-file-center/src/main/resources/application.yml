@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: scdisk-file-center
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/scdisk_file?serverTimezone=UTC&allowMultiQueries=true
+    username: root
+    password: 123456
+    type: com.alibaba.druid.pool.DruidDataSource
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+  instance:
+    prefer-ip-address: true
+    status-page-url: http://${spring.cloud.client.ip-address}:${server.port}/swagger-ui.html
+server:
+  port: 8081

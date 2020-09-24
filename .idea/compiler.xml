@@ -7,17 +7,28 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="UserCenter" />
-        <module name="Eureka" />
-        <module name="FileCenter" />
+        <module name="scdisk-user-center" />
+        <module name="scdisk-usercenter-facede" />
+        <module name="scdisk-user-center-facade" />
+        <module name="scdisk-eureka" />
+        <module name="scdisk-file-center" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="CloudDisk" target="1.5" />
+      <module name="scdisk-usercenter" target="1.8" />
+      <module name="scdisk-usercenter-facede" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="Eureka" options="-parameters" />
-      <module name="FileCenter" options="-parameters" />
-      <module name="UserCenter" options="-parameters" />
+      <module name="CloudDisk" options="-parameters" />
+      <module name="scdisk-eureka" options="-parameters" />
+      <module name="scdisk-file-center" options="-parameters" />
+      <module name="scdisk-user-center" options="-parameters" />
+      <module name="scdisk-user-center-facade" options="-parameters" />
+      <module name="scdisk-usercenter" options="-parameters" />
+      <module name="scdisk-usercenter-facede" options="-parameters" />
     </option>
   </component>
 </project>

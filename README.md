@@ -73,10 +73,33 @@ SmartCloudDisk
 -----------------
 - https://github.com/BitInit/pnd
 - https://github.com/Glovecc/JunianCloud (相关性比较低)
-- https://github.com/ShawyerPeng/BitsCloudDisk(结构最接近)
+- https://github.com/ShawyerPeng/BitsCloudDisk (结构最接近)
 - https://github.com/liantian-cn/FileStoreGAE (基于GAE的图床)
+- https://github.com/zhaojun1998/zfile （前端界面很好看， 可惜没有源代码）
+- https://github.com/Gepeng18/CloudDisk (功能完善)
 
 相关博客
 --------------------
 - [Spring笔记之访问数据库](https://lizec.top/2019/01/13/Spring%E7%AC%94%E8%AE%B0%E4%B9%8B%E8%AE%BF%E9%97%AE%E6%95%B0%E6%8D%AE%E5%BA%93/)
 - [Spring笔记之SpringCloud](https://lizec.top/2019/07/14/Spring%E7%AC%94%E8%AE%B0%E4%B9%8BSpringCloud/)
+
+
+参考资料
+--------------------
+
+
+### Spring基础配置
+
+- [Spring配置与环境切换](https://blog.csdn.net/Colton_Null/article/details/82145467)
+- [Spring Boot静态资源访问和配置全解析](https://blog.csdn.net/u010358168/article/details/81205116)
+
+
+
+### Swagger配置
+
+- [超详细！使用swagger自动生成Api文档（swagger-ui）](https://blog.csdn.net/zhanggonglalala/article/details/98070986)
+- [Spring Cloud Eureka控制台快速查看Swagger文档](http://c.biancheng.net/view/5534.html)
+
+
+
+
